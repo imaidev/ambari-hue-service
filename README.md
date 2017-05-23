@@ -19,7 +19,7 @@ http://$AMBARI_HOST:8080
 ```
 VERSION=`hdp-select status hadoop-client | sed 's/hadoop-client - \([0-9]\.[0-9]\).*/\1/'`
 rm -rf /var/lib/ambari-server/resources/stacks/HDP/$VERSION/services/HUE  
-sudo git clone https://github.com/EsharEditor/ambari-hue-service.git /var/lib/ambari-server/resources/stacks/HDP/$VERSION/services/HUE
+sudo git clone https://github.com/imaidev/ambari-hue-service.git /var/lib/ambari-server/resources/stacks/HDP/$VERSION/services/HUE
 ```
 
 - Restart Ambari
