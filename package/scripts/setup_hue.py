@@ -39,11 +39,11 @@ def setup_hue():
     content = InlineTemplate(params.hue_log_content), 
     owner = params.hue_user
   )
-  Logger.info(format("Creating {hue_conf_dir}/pseudo-distributed.ini config file"))
-  File(format("{hue_conf_dir}/pseudo-distributed.ini"), 
-    content = InlineTemplate(params.hue_pseudodistributed_content), 
-    owner = params.hue_user
-  )
+#  Logger.info(format("Creating {hue_conf_dir}/pseudo-distributed.ini config file"))
+#  File(format("{hue_conf_dir}/pseudo-distributed.ini"), 
+#    content = InlineTemplate(params.hue_pseudodistributed_content), 
+#    owner = params.hue_user
+#  )
   Logger.info(format("Run the script file to add configurations"))
   if params.hue_hdfs_module_enabled == 'Yes':
     add_hdfs_configuration(params.has_ranger_admin, params.security_enabled)
