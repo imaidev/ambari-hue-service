@@ -70,8 +70,6 @@
 	    <packages>
 	      <package><name>wget</name></package>   
 	      <package><name>tar</name></package>
-
-	      <package><name>libxslt-devel</name></package>		   
 	      <package><name>python-simplejson</name></package>
 	      <package><name>python-setuptools</name></package>
 	      <package><name>rsync</name></package>
@@ -81,6 +79,7 @@
 	  </osSpecific>
 	  <osSpecific>
             <osFamily>redhat6,redhat7</osFamily>
+            <package><name>libxslt-devel</name></package>
             <package><name>libxml2-devel</name></package>
             <package><name>asciidoc</name></package>
             <package><name>libkrb5-devel</name></package>
@@ -99,6 +98,7 @@
 	  </osSpecific>
 	  <osSpecific>
             <osFamily>ubuntu14,ubuntu16</osFamily>
+            <package><name>libxslt-dev</name></package>
 	    <package><name>libxml2-dev</name></package>
             <package><name>libkrb5-devel</name></package>
             <package><name>libldap2-dev</name></package>
