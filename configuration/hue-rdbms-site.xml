@@ -50,7 +50,7 @@
   </property>
   <property>
     <name>sqlite_name</name>
-    <value>/usr/local/hue/desktop/desktop.db</value>
+    <value>/opt/hue/desktop/desktop.db</value>
     <display-name>Sqlite Database Name</display-name>
     <description>For SQLite, name defines the path to the database</description>
   </property>
