@@ -23,7 +23,7 @@
   <!-- Settings to configure oozie and liboozie-->
   <property>
     <name>local_data_dir</name>
-    <value>/usr/local/hue/apps/oozie/examples</value>
+    <value>/opt/hue/apps/oozie/examples</value>
     <display-name>Local Data Dir</display-name>
     <description>Location on local FS where the examples are stored</description>
     <on-ambari-upgrade add="true"/>
@@ -31,7 +31,7 @@
 
   <property>
     <name>sample_data_dir</name>
-    <value>/usr/local/hue/apps/oozie/examples/input_data</value>
+    <value>/opt/hue/apps/oozie/examples/input_data</value>
     <display-name>Sample Data Dir</display-name>
     <description>Location on local FS where the data for the examples is stored</description>
     <on-ambari-upgrade add="true"/>
