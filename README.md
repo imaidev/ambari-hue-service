@@ -99,7 +99,7 @@ curl -u admin:$PASSWORD -i -H 'X-Requested-By: ambari' -X DELETE http://$AMBARI_
 rm -rf /opt/hue*
 rm -rf /var/log/hue
 rm -rf /var/run/hue
-rm /usr/hdp/current/hadoop-client/lib/hue-plugins-3.11.0-SNAPSHOT.jar
+rm /usr/hdp/current/hadoop-client/lib/hue-plugins-3.12.0-SNAPSHOT.jar
 ```   
 ### changes
 I tested in centos6.8,centos7.0, ubuntu14.4
