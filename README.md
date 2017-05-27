@@ -96,8 +96,10 @@ curl -u admin:$PASSWORD -i -H 'X-Requested-By: ambari' -X DELETE http://$AMBARI_
 - Remove artifacts
 
 ```
-rm -rf /usr/local/hue*
+rm -rf /opt/hue*
 rm -rf /var/log/hue
 rm -rf /var/run/hue
 rm /usr/hdp/current/hadoop-client/lib/hue-plugins-3.11.0-SNAPSHOT.jar
 ```   
+### change
+1. 
