@@ -101,5 +101,9 @@ rm -rf /var/log/hue
 rm -rf /var/run/hue
 rm /usr/hdp/current/hadoop-client/lib/hue-plugins-3.11.0-SNAPSHOT.jar
 ```   
-### change
-1. 
+### changes
+I tested in centos6.8,centos7.0, ubuntu14.4
+1. update metainfo.xml to support ubuntu14。
+2. change ```download_url = 'echo "http://repo.imaicloud.com/hue/hue-3.12.0-centos7.tgz"'```. URL cannot access from internet. you must use your's tarball. I compile hue separately in centos6.8/centos7.3/ubuntu14.4。
+3. install folder change from ```/usr/local ``` to ```/opt```。
+4. some small changes
